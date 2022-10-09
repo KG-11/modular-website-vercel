@@ -1,0 +1,219 @@
+// Colours
+
+/* SCSS RGB */
+$maize-crayola: rgba(238, 198, 67, 1);
+$eerie-black: rgba(20, 20, 20, 1);
+$cultured: rgba(238, 240, 242, 1);
+$shadow-blue: rgba(119, 133, 172, 1);
+$old-lavender: rgba(113, 103, 124, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(
+  0deg,
+  #eec643ff,
+  #141414ff,
+  #eef0f2ff,
+  #7785acff,
+  #71677cff
+);
+$gradient-right: linear-gradient(
+  90deg,
+  #eec643ff,
+  #141414ff,
+  #eef0f2ff,
+  #7785acff,
+  #71677cff
+);
+$gradient-bottom: linear-gradient(
+  180deg,
+  #eec643ff,
+  #141414ff,
+  #eef0f2ff,
+  #7785acff,
+  #71677cff
+);
+$gradient-left: linear-gradient(
+  270deg,
+  #eec643ff,
+  #141414ff,
+  #eef0f2ff,
+  #7785acff,
+  #71677cff
+);
+$gradient-top-right: linear-gradient(
+  45deg,
+  #eec643ff,
+  #141414ff,
+  #eef0f2ff,
+  #7785acff,
+  #71677cff
+);
+$gradient-bottom-right: linear-gradient(
+  135deg,
+  #eec643ff,
+  #141414ff,
+  #eef0f2ff,
+  #7785acff,
+  #71677cff
+);
+$gradient-top-left: linear-gradient(
+  225deg,
+  #eec643ff,
+  #141414ff,
+  #eef0f2ff,
+  #7785acff,
+  #71677cff
+);
+$gradient-bottom-left: linear-gradient(
+  315deg,
+  #eec643ff,
+  #141414ff,
+  #eef0f2ff,
+  #7785acff,
+  #71677cff
+);
+$gradient-radial: radial-gradient(
+  #eec643ff,
+  #141414ff,
+  #eef0f2ff,
+  #7785acff,
+  #71677cff
+);
+
+// Fonts
+
+@font-face {
+  font-family: "InterTight Black";
+  src: url("./assets/fonts/InterTight-Black.ttf");
+}
+
+@font-face {
+  font-family: "InterTight Bold";
+  src: url("./assets/fonts/InterTight-Bold.ttf");
+}
+
+@font-face {
+  font-family: "InterTight ExtraBold";
+  src: url("./assets/fonts/InterTight-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "InterTight ExtraLight";
+  src: url("./assets/fonts/InterTight-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: "InterTight Light";
+  src: url("./assets/fonts/InterTight-Light.ttf");
+}
+
+@font-face {
+  font-family: "InterTight Medium";
+  src: url("./assets/fonts/InterTight-Medium.ttf");
+}
+
+@font-face {
+  font-family: "InterTight Regular";
+  src: url("./assets/fonts/InterTight-Regular.ttf");
+}
+
+@font-face {
+  font-family: "InterTight SemiBold";
+  src: url("./assets/fonts/InterTight-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "InterTight Thin";
+  src: url("./assets/fonts/InterTight-Thin.ttf");
+}
+
+@font-face {
+  font-family: "PlusJakartaSans Bold";
+  src: url("./assets/fonts/PlusJakartaSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "PlusJakartaSans BoldItalic";
+  src: url("./assets/fonts/PlusJakartaSans-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "PlusJakartaSans ExtraBold";
+  src: url("./assets/fonts/PlusJakartaSans-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "PlusJakartaSans ExtraLight";
+  src: url("./assets/fonts/PlusJakartaSans-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: "PlusJakartaSans Light";
+  src: url("./assets/fonts/PlusJakartaSans-Light.ttf");
+}
+
+@font-face {
+  font-family: "PlusJakartaSans Medium";
+  src: url("./assets/fonts/PlusJakartaSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: "PlusJakartaSans Regular";
+  src: url("./assets/fonts/PlusJakartaSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "PlusJakartaSans SemiBold";
+  src: url("./assets/fonts/PlusJakartaSans-SemiBold.ttf");
+}
+
+$InterTightBlack: "InterTight Black" !important;
+$InterTightBold: "InterTight Bold" !important;
+$InterTightExtraBold: "InterTight ExtraBold" !important;
+$InterTightExtraLight: "InterTight ExtraLight" !important;
+$InterTightLight: "InterTight Light" !important;
+$InterTightMedium: "InterTight Medium" !important;
+$InterTightRegular: "InterTight Regular" !important;
+$InterTightSemiBold: "InterTight SemiBold" !important;
+$InterTightThin: "InterTight Thin" !important;
+$PlusJakartaSansBold: "PlusJakartaSans Bold" !important;
+$PlusJakartaSansBoldItalic: "PlusJakartaSans BoldItalic" !important;
+$PlusJakartaSansExtraBold: "PlusJakartaSans ExtraBold" !important;
+$PlusJakartaSansExtraLight: "PlusJakartaSans ExtraLight" !important;
+$PlusJakartaSansLight: "PlusJakartaSans Light" !important;
+$PlusJakartaSansMedium: "PlusJakartaSans Medium" !important;
+$PlusJakartaSansRegular: "PlusJakartaSans Regular" !important;
+$PlusJakartaSansSemiBold: "PlusJakartaSans SemiBold" !important;
+
+$font-xs: 8px;
+$font-sm: 16px;
+$font-md: 24px;
+$font-lg: 32px;
+$font-xl: 64px;
+
+// Margins
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
+.mb-auto {
+  margin-bottom: auto;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
